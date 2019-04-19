@@ -1,0 +1,17 @@
+---
+name: promtail
+
+templates:
+  bin/promtail_ctl: bin/promtail_ctl
+  bin/pre-start: bin/pre-start
+  bin/promtail-scrape-configs: bin/promtail-scrape-configs
+  config/config.yml: config/config.yml
+
+packages:
+  - promtail
+
+consumes:
+- name: loki
+  type: loki
+
+properties: {}
