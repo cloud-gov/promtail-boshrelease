@@ -37,7 +37,7 @@ addons:
 Now you can update your [BOSH Runtime Config](http://bosh.io/docs/runtime-config.html) with the previously created file:
 
 ```
-bosh update-runtime-config <your runtime-config.yaml file location>
+bosh update-config --name promtail --type runtime <your runtime-config.yaml file location>
 ```
 
 Once runtime config is updated it will applied to all new deployments (the existing deployments will be considered outdated and they will be update when they are deployed again).
