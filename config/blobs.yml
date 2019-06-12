@@ -2,3 +2,7 @@ golang/go1.12.4.linux-amd64.tar.gz:
   size: 127928770
   object_id: 8ca01d24-d952-47b0-4dfb-f6d6de5ce3f2
   sha: sha256:d7d1f1f88ddfe55840712dc1747f37a790cbcaa448f6c9cf51bbe10aa65442f5
+promtail/promtail_v0.1.0_linux_amd64:
+  size: 57592480
+  object_id: c9e7a54b-2c68-4e78-4130-fb30cce9ec35
+  sha: sha256:40e4ac41825d48db2e69313528422a081d6f155f44deba6a671a052e7b738ab0
