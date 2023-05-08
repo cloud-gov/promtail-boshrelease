@@ -1,4 +1,4 @@
-promtail/promtail_v0.1.0_linux_amd64:
-  size: 57592480
-  object_id: c9e7a54b-2c68-4e78-4130-fb30cce9ec35
-  sha: sha256:40e4ac41825d48db2e69313528422a081d6f155f44deba6a671a052e7b738ab0
+promtail/promtail_v2.8.1_linux_amd64:
+  size: 90447776
+  object_id: 1c225c31-8180-41bd-5912-be835508dcce
+  sha: sha256:bce138889912cd53ac6cd7b293ad0b81880a408a5777133a43bf8890c6d509fc
