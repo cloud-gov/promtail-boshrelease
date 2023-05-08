@@ -49,15 +49,15 @@ properties:
 
   promtail.client.timeout:
     description: "Maximum time to wait for server to respond to a request"
-  promtail.client.minbackoff:
+  promtail.client.min_period:
     description: "Initial backoff time between retries"
-    default: 100ms
-  promtail.client.maxbackoff:
+    default: 500ms
+  promtail.client.max_period:
     description: "Maximum backoff time between retries"
-    default: 5s
-  promtail.client.maxretries:
+    default: 5m
+  promtail.client.max_retries:
     description: "Maximum number of retires when sending batches"
-    default: 5
+    default: 10
   promtail.client.batchwait:
     description: "Maximum wait period before sending batch"
   promtail.client.batchsize:

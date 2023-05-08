@@ -47,9 +47,9 @@ client:
 <% end -%>
   url: http://<%= link('loki').instances.first.address %>:3100/api/prom/push
   backoff_config:
-    minbackoff: <%= p('promtail.client.minbackoff') %>
-    maxbackoff: <%= p('promtail.client.maxbackoff') %>
-    maxretries: <%= p('promtail.client.maxretries') %>
+    min_period: <%= p('promtail.client.min_period') %>
+    max_period: <%= p('promtail.client.max_period') %>
+    max_retries: <%= p('promtail.client.max_retries') %>
   <% if_p('promtail.client.timeout') do |v| -%>
   timeout: <%= v %>
   <% end -%>
